@@ -1,0 +1,3 @@
+timestamp,source,event_type,target_asset,severity_score,raw_description,focus_lens
+2024-04-24T10:33:27Z,Firewall,port_scan,192.168.1.203,0.8,Multiple SYN packets on closed ports,Network
+2024-04-24T11:12:45Z,IDS,login_failure,192.168.1.102,0.6,Three failed login attempts from internal host,Authentication

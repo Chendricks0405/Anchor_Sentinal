@@ -1,0 +1,228 @@
+[
+  {
+    "id": "Port scan from unknown subnet",
+    "EQ": 0.6,
+    "orbit": 0.4,
+    "tier": "active",
+    "focus_lens": [
+      "Network"
+    ]
+  },
+  {
+    "id": "Repeated connection on closed port",
+    "EQ": 0.7,
+    "orbit": 0.3,
+    "tier": "active",
+    "focus_lens": [
+      "Network"
+    ]
+  },
+  {
+    "id": "DNS tunneling pattern detected",
+    "EQ": 0.85,
+    "orbit": 0.2,
+    "tier": "active",
+    "focus_lens": [
+      "Network"
+    ]
+  },
+  {
+    "id": "Suspicious outbound traffic (off-hours)",
+    "EQ": 0.7,
+    "orbit": 0.35,
+    "tier": "active",
+    "focus_lens": [
+      "Network"
+    ]
+  },
+  {
+    "id": "Beacon-like periodic ping",
+    "EQ": 0.65,
+    "orbit": 0.4,
+    "tier": "cache",
+    "focus_lens": [
+      "Network"
+    ]
+  },
+  {
+    "id": "Lateral movement across VLANs",
+    "EQ": 0.9,
+    "orbit": 0.2,
+    "tier": "active",
+    "focus_lens": [
+      "Network",
+      "Behavior"
+    ]
+  },
+  {
+    "id": "Multiple failed logins from same host",
+    "EQ": 0.8,
+    "orbit": 0.3,
+    "tier": "active",
+    "focus_lens": [
+      "Authentication"
+    ]
+  },
+  {
+    "id": "Failed login after password reset",
+    "EQ": 0.75,
+    "orbit": 0.3,
+    "tier": "active",
+    "focus_lens": [
+      "Authentication"
+    ]
+  },
+  {
+    "id": "Access granted from inactive user",
+    "EQ": 0.85,
+    "orbit": 0.2,
+    "tier": "active",
+    "focus_lens": [
+      "User",
+      "Authentication"
+    ]
+  },
+  {
+    "id": "Multiple logins from different geolocations",
+    "EQ": 0.8,
+    "orbit": 0.25,
+    "tier": "active",
+    "focus_lens": [
+      "Identity",
+      "Network"
+    ]
+  },
+  {
+    "id": "MFA bypass attempt detected",
+    "EQ": 0.95,
+    "orbit": 0.1,
+    "tier": "active",
+    "focus_lens": [
+      "Authentication"
+    ]
+  },
+  {
+    "id": "Large data transfer to external drive",
+    "EQ": 0.8,
+    "orbit": 0.2,
+    "tier": "active",
+    "focus_lens": [
+      "Behavior",
+      "System"
+    ]
+  },
+  {
+    "id": "Sudden access to financial files",
+    "EQ": 0.75,
+    "orbit": 0.3,
+    "tier": "active",
+    "focus_lens": [
+      "Behavior",
+      "Identity"
+    ]
+  },
+  {
+    "id": "Opening of HR folders by engineering team",
+    "EQ": 0.7,
+    "orbit": 0.4,
+    "tier": "cache",
+    "focus_lens": [
+      "User",
+      "System"
+    ]
+  },
+  {
+    "id": "Application use spike outside job role",
+    "EQ": 0.65,
+    "orbit": 0.45,
+    "tier": "cache",
+    "focus_lens": [
+      "User",
+      "Behavior"
+    ]
+  },
+  {
+    "id": "Unusual clipboard access activity",
+    "EQ": 0.6,
+    "orbit": 0.5,
+    "tier": "cache",
+    "focus_lens": [
+      "Behavior"
+    ]
+  },
+  {
+    "id": "Unauthorized attempt to change system files",
+    "EQ": 0.9,
+    "orbit": 0.2,
+    "tier": "active",
+    "focus_lens": [
+      "System"
+    ]
+  },
+  {
+    "id": "Attempt to dump password hashes",
+    "EQ": 0.95,
+    "orbit": 0.1,
+    "tier": "active",
+    "focus_lens": [
+      "System",
+      "Identity"
+    ]
+  },
+  {
+    "id": "Large ZIP archive created in restricted folder",
+    "EQ": 0.75,
+    "orbit": 0.3,
+    "tier": "active",
+    "focus_lens": [
+      "System",
+      "Behavior"
+    ]
+  },
+  {
+    "id": "Execution of script in /tmp or staging",
+    "EQ": 0.7,
+    "orbit": 0.35,
+    "tier": "cache",
+    "focus_lens": [
+      "System"
+    ]
+  },
+  {
+    "id": "User agent spoofing",
+    "EQ": 0.6,
+    "orbit": 0.4,
+    "tier": "cache",
+    "focus_lens": [
+      "Identity"
+    ]
+  },
+  {
+    "id": "Deleted logs without record",
+    "EQ": 0.85,
+    "orbit": 0.3,
+    "tier": "active",
+    "focus_lens": [
+      "System"
+    ]
+  },
+  {
+    "id": "Antivirus scan termination",
+    "EQ": 0.8,
+    "orbit": 0.25,
+    "tier": "active",
+    "focus_lens": [
+      "System"
+    ]
+  },
+  {
+    "id": "Scheduled task creation with obfuscated name",
+    "EQ": 0.9,
+    "orbit": 0.2,
+    "tier": "active",
+    "focus_lens": [
+      "System",
+      "Behavior"
+    ]
+  }
+]
